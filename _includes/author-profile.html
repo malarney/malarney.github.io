@@ -74,7 +74,14 @@
           </a>
         </li>
       {% endif %}
-
+      {% if author.quora %}
+        <li>
+            <a href="https://www.quora.com/profile/{{ author.quora }}" itemprop="sameAs">
+                <i class="fa fa-fw fa-quora-square" aria-hidden="true"></i> Quora
+            </a>
+        </li>
+      {% endif %}
+        
       {% if author.google_plus %}
         <li>
           <a href="https://plus.google.com/+{{ author.google_plus }}" itemprop="sameAs">
