@@ -165,6 +165,20 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+
+collections:
+  math:
+    output: true
+    permalink: /:collection/:path/
+  linguistics:
+    output: true
+    permalink: /:collection/:path/
+  programming:
+    output: true
+    permalink: /:collection/:path/
+
+
 
 # Sass/SCSS
 sass:
@@ -246,3 +260,33 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _math
+  - scope:
+      path: ""
+      type: math
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: true
+      comments: true
+  # _linguistics
+  - scope:
+      path: ""
+      type: linguistics
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: true
+      comments: true
+  # _programming
+  - scope:
+      path: ""
+      type: programming
+    values:
+      layout: single
+      read_time: false
+      author_profile: true
+      share: true
+      comments: true
