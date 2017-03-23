@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Projects"
 title_separator          : "-"
 name                     : "Liem Malarney"
 description              : "Projects, Proofs, and Explanations"
