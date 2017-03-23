@@ -1,4 +1,5 @@
 ---
+permalink: /about/
 defaults:
 # _pages
 - scope:
