@@ -74,10 +74,19 @@
           </a>
         </li>
       {% endif %}
+        
       {% if author.quora %}
         <li>
             <a href="https://www.quora.com/profile/{{ author.quora }}" itemprop="sameAs">
                 <i class="fa fa-fw fa-quora" aria-hidden="true"></i> Quora
+            </a>
+        </li>
+      {% endif %}     
+          
+      {% if author.chess %}
+        <li>
+            <a href="https://www.chess.com/member/{{ author.chess }}" itemprop="sameAs">
+                <i class="♙" aria-hidden="true"></i> Chess
             </a>
         </li>
       {% endif %}
