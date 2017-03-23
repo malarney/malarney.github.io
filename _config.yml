@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Liem Malarney"
 description              : "Projects, Proofs, and Explanations"
 url                      : https://malarney.github.io
-baseurl                  : "/projects"
+baseurl                  : 
 repository               : "malarney/malarney.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
