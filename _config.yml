@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Mathematics, Linguistics, and Programming Projects"
+title                    : "My Projects"
 title_separator          : "-"
 name                     : "Liem Malarney"
 description              : "Projects, Proofs, and Explanations"
-url                      : "https://malarney.github.io"
+url                      : https://malarney.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -113,6 +113,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _pages/about.md
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
