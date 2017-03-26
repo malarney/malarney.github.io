@@ -11,10 +11,12 @@
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <link rel="shortcut icon" type="image/png" href="{{site.url}}/favicon.png">
   <head>
-    {% include head.html %}
     {% include head/custom.html %}
-  </head>
+    {% include head.html %}
+      
 
+  </head>
+    
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
     {% include browser-upgrade.html %}
