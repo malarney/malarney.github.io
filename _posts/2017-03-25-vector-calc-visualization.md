@@ -83,7 +83,7 @@ A non-conservative example is demonstrated in Figure 5:
     <a href="/assets/images/ArgEpitrochoid_VectorIntegral.svg"><img src="/assets/images/ArgEpitrochoid_VectorIntegral.svg"></a>
     <figcaption>Figure 5: \(\nabla\tan^{-1}\left(\frac{y}{x}\right)\), the angle of a point, over an epitrochoid</figcaption>
 </figure>
-Here we have what can be called the gradient of \(\tan^{-1}\left(\frac{y}{x}\right\). This potential function is the standard angle when \(x>0\), and the angle with the negative-x ray everywhere else it's defined.  This is an interesting case as despite the field having a potential function, a closed positively oriented curve will yield a positive integral. Of course, what we're actually differentiating with respect to is just a branch of a multi-function, there are infinitely many functions that would satisfy:
+Here we have what can be called the gradient of \(\tan^{-1}\left(\frac{y}{x}\right)\). This potential function is the standard angle when \(x>0\), and the angle with the negative-x ray everywhere else it's defined.  This is an interesting case as despite the field having a potential function, a closed positively oriented curve will yield a positive integral. Of course, what we're actually differentiating with respect to is just a branch of a multi-function, there are infinitely many functions that would satisfy:
 
 $$f\left(\tan\left(x\right)\right)=x$$
 
