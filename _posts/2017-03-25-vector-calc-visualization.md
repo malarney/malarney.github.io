@@ -6,6 +6,8 @@ tags:
   - programming
   - math
 ---
+One of the more difficult aspects of vector and multivariable calculus when transitioning from single variables is visualizing the functions and operations that you begin working with regularly. Simple 3D graphing comes native with Mathematica, and it’s an invaluable tool for many purposes. Below are some supplementary functions written in Mathematica, that can help in understanding a few ideas in vector calculus. Namely: Gradient fields, and line integrals over a function and vector field in 2-dimensions.
+
 ## Demonstration
 ### Gradient Field with Function
 The gradient field function takes in an expression of two variables, after which it will:
